@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(10, 6, 1);
+    color: aliceblue;
+    text-align: center;
+}
+#inicio{
+    background-color: blue;
+}
+.poema01{
+    background-color: rgb(0, 0, 0);
+}
+.poema02{
+    background-color: black;
+}
