@@ -1,0 +1,23 @@
+body{
+    background: rgb(31,0,36);
+    background: linear-gradient(158deg, rgba(31,0,36,1) 0%, rgba(3,1,48,1) 28%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    
+}
+
+.titulo{
+    color:white;
+    font-size: 300%;
+    text-align: center;
+}
+nav{
+    background: rgb(31,0,36);
+    background: linear-gradient(158deg, rgba(31,0,36,1) 0%, rgba(3,1,48,1) 28%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    text-align: right;
+    padding: 10px;
+    font-size:30px;
+
+}
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+}
