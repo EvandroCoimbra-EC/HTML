@@ -4,14 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Semaforo</title>
 </head>
 <body>
-    <button onclik = "verde"()>verde</button> 
-    <button onclik = "amarelo"()>amarelo</button> 
-    <button onclik = "vermelho"()>vermeho</button> 
-    <div id = "sinal"> 
-    </div>
+    <button onclick='vermelho()''>vermelho</button>
+    <button onclick='verde()'>verde</button>
+    <button onclick="amarelo()">amarelo</button>
+    <div id = "vermelho">a</div>
+    <div id = "laranja">a</div>
+    <div id="verde">a</div> 
 </body>
-<script src="funções.js"></script>
+
+<script src="funções.js">
+    function verde(){
+        branco()
+        document.getElementById('verde').style.backgroundColor = 'green'
+    }
+    function vermelho(){
+        branco()
+        document.getElementById("vermelho").style.backgroundColor = "red"
+    }
+    function amarelo(){
+        branco()
+        document.getElementById("laranja").style.backgroundColor = "yellow"
+    }
+    function branco(){
+        branco()
+        document.getElementById("branco").style.backgroundColor = "white"
+    }
+        
+</script>
 </html>
